@@ -3,6 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     >
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/details_background"
+        />
     <com.andreidiaconu.transitions.views.ResizableImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
@@ -10,7 +16,6 @@
         android:layout_centerInParent="true"
         android:scaleType="fitCenter"
         android:background="#ff0000"
-        android:transitionName="shared_image"
         />
     <android.support.v7.widget.Toolbar
         android:id="@+id/action_bar"

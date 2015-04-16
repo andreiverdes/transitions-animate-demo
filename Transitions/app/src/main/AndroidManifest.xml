@@ -88,6 +88,18 @@
         </activity>
         <activity  android:name=".stage7.DetailsActivity7" android:theme="@style/AppTheme.Transitions" />
 
+        <activity
+            android:name=".stage8.GridActivity8"
+            android:label="Cats Stage 8"
+            android:theme="@style/AppTheme.Transitions"
+            >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity  android:name=".stage8.DetailsActivity8" android:theme="@style/AppTheme.Transitions" />
+
     </application>
 
 </manifest>
